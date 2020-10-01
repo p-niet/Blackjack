@@ -1,0 +1,153 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.flex-blackjack-row-1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 {
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 div {
+    height: auto;
+    flex: 1;
+}
+
+.flex-blackjack-row-2 button {
+    padding: 10px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    margin: 10px;
+}
+
+body {
+    background-image: url(./static/images/hEiUkp.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    background-color: 116416;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 10px 5px 25px black;
+    justify-content: center;
+}
+
+.navbar table {
+    position: absolute;
+    right: 10px;
+}
+
+.game {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    color: whitesmoke;
+}
+
+.footer a {
+    color: grey;
+}
+
+  .btn-primary {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #2D8632;
+  border-radius: 0px;
+  border: 0px solid #004304;
+  border-width: 0px 0px 4px 0px;
+  padding: 10px 20px 10px 20px;
+    color: #fff;
+  font-size: initial;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+
+  .btn-warning {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #AA6D39;
+  border-radius: 0px;
+  border: 0px solid #552700;
+  border-width: 0px 0px 4px 0px;
+  padding: 10px 20px 10px 20px;
+    color: #fff;
+  font-size: initial;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+
+  .btn-danger {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #AA3C39;
+  border-radius: 0px;
+  border: 0px solid #550200;
+  border-width: 0px 0px 4px 0px;
+  padding: 10px 20px 10px 20px;
+    color: #fff;
+  font-size: initial;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+
+  .flex-blackjack-row-2 {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    background-color: 116416;
+    padding: 15px;
+    box-shadow: 10px -5px 25px black;
+  }
